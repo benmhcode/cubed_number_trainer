@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 class="main-title">Cubed Root Brain Trainer</h1>
+
+    <!-- create a table which has 3 columns, the first col nums 1 - 10, second column cubed first column numbers,third row the last number of the cubed number-->
+    <p id="randomNumber">0</p>
+    <!--Have a button that says generate, this links to the java script to generate a random number-->
+    <button id="generate">Generate</button>
+    <!--text box to input guess-->
+    <input
+      type="number"
+      id="userGuess"
+      placeholder="0-99"
+      onfocus="this.value=''"
+    />
+    <!--Have a button that says submit, this number passes to javascript-->
+    <button id="submit">Submit</button>
+    <p id="result"></p>
+    <p id="correct">0 correct</p>
+    <p id="incorrect">0 incorrect</p>
+    <script src="main.js"></script>
+  </body>
+</html>
